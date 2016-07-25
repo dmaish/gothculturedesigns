@@ -6,6 +6,10 @@
 }
 .top{
     height: 40em;
+    border-width: 5px;
+    border-style: double;
+    border-color: white;
+    
 }
 
 .top-bar,ul{
@@ -24,9 +28,12 @@ font-family: 'Great Vibes', cursive;
 }
 
 /*about stylings*/
+
 .about > h1 {
     font-family: 'Megrim', cursive;
     color: white;
+    margin-top: 2em;
+    text-decoration: line-through;
 }
 .about > p {
     font-size: 2em;
