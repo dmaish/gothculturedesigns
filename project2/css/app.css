@@ -1,11 +1,11 @@
 
-.top{
+.top, .about{
     background-image: url("/assets/girl-1125318_1920.jpg");
     background-size: cover;
+    background-attachment: fixed;
+}
+.top{
     height: 40em;
-    
-    
-    
 }
 
 .top-bar,ul{
@@ -23,3 +23,13 @@ font-family: 'Great Vibes', cursive;
     font-family: 'Poiret One', cursive;
 }
 
+/*about stylings*/
+.about > h1 {
+    font-family: 'Megrim', cursive;
+    color: white;
+}
+.about > p {
+    font-size: 2em;
+     font-family: 'Poiret One', cursive;
+    color: white;
+}
